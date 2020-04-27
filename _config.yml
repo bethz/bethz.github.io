@@ -24,40 +24,9 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: BethZ's website
-subtitle: Welcome!
-This is BethZ's website. Welcome to Prologue.
-
-author: BethZ
-email: bz@bz.com
-avatar: assets/images/avatar.jpg
-
-# You'll want to customize url and baseurl for your own site:
-baseurl: "/jekyll-theme-prologue" # the subpath of your site, e.g. /blog
-url: "https://bethz.github.io" # the base hostname & protocol for your site
-
-# Social settings
-# Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
-twitter_url:
-facebook_url:
-googleplus_url:
-instagram_url:
-linkedin_url:
-github_url:
-stackoverflow_url:
-pinterest_url:
-slack_url:
-dribbble_url:
-
-# Google Analytics Tracking ID goes here:
-google_analytics:
-
-# The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-prologue
-collections: [sections]
