@@ -19,7 +19,7 @@ header: no
 image:
     title: mediaplayer_js-title.jpg
     thumb: mediaplayer_js-thumb.jpg
-    homepage: mediaplayer_js-home.jpg
+    homepage: assabet.jpg
     caption: Photo on Assabet River
     caption_url: https://bethz.com
 mediaplayer: true
