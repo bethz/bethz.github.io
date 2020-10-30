@@ -41,7 +41,7 @@ improve_content: https://github.com/bethz/bethz.github.io/tree/gh-pages
 urlimg: "https://bethz.github.io/images/"
 
 # Logo size is 600x80 pixels
-logo: "logo.jpg"
+logo: "bzlogo.png"
 
 # Plugins
 plugins:
