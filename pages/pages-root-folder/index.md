@@ -9,6 +9,7 @@ header:
   image_fullwidth: boston.jpg
 widget1:
   title: "Bullfrog Alley"
+  caption: 'Off the Assabet where the Bullfrog's sing'
   url: 'http://phlow.github.io/feeling-responsive/blog/'
   image: bullfrog.jpg
   text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
