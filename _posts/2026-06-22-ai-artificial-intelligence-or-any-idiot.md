@@ -8,7 +8,7 @@ linkedin_url: ""
 
 AI stands for Artificial Intelligence. But lately it also stands for Any Idiot.
 
-Any idiot can generate a strategy deck. Any idiot can ask Copilot for a solution architecture. Any idiot can produce a 40-slide presentation in 10 minutes flat.
+Any idiot can generate a strategy deck. Any idiot can ask Copilot for a solution architecture. Any idiot can produce a gorgeous 40-slide presentation in 10 minutes flat. Any idiot can create a handful of agents by lunchtime.
 
 That's not intelligence. That's output.
 
