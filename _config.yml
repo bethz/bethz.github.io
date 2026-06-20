@@ -1,9 +1,18 @@
-# theme: jekyll-theme-slate
-# theme: carte-noire
-# theme: jekyll-theme-leap-day
-# theme: blackdoc
-# theme: architect
-theme: jekyll-theme-slate
-# theme: massively
-title: Welcome to BethZ's webpage!
-description: This is a place to find all of BethZ's current projects.
+title: BethZ
+description: Technology strategist, builder, coach.
+url: "https://www.bethz.com"
+baseurl: ""
+
+# Blog settings
+permalink: /blog/:year/:month/:title/
+paginate: 5
+
+# Build
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

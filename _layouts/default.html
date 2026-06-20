@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <style>
+    :root {
+      --bg: #f7f4ef;
+      --bg-elevated: #fcfbf8;
+      --surface: #ffffff;
+      --border: #dedede;
+      --text: #242424;
+      --text-muted: #5c5c5c;
+      --text-soft: #6f6f6f;
+      --accent: #5B9BD5;
+      --accent-hover: #4A8BC2;
+      --gold: #F0C75E;
+      --link: #0078d4;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #2a2827;
+        --bg-elevated: #343231;
+        --surface: #3a3836;
+        --border: #4a4846;
+        --text: #dedede;
+        --text-muted: #919191;
+        --text-soft: #b0b0b0;
+        --accent: #7AB3E0;
+        --accent-hover: #5B9BD5;
+        --gold: #F0C75E;
+        --link: #4da6ff;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Segoe UI", Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px 24px;
+    }
+
+    nav .site-name {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    nav .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-left: 24px;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+
+    nav .nav-links a:hover { color: var(--accent); }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px 24px 60px;
+    }
+
+    .hero {
+      padding: 60px 0 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .hero .tagline {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      margin-top: 8px;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-top: 48px;
+      margin-bottom: 16px;
+      color: var(--text);
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      display: block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 24px;
+      text-decoration: none;
+      color: var(--text);
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .card h3 {
+      font-size: 1.1rem;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .post-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .post-list li {
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      gap: 16px;
+      align-items: baseline;
+    }
+
+    .post-date {
+      font-size: 0.82rem;
+      color: var(--text-soft);
+      white-space: nowrap;
+      min-width: 90px;
+    }
+
+    .post-list a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    .post-list a:hover { text-decoration: underline; }
+
+    .see-all {
+      display: inline-block;
+      margin-top: 12px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .muted { color: var(--text-muted); font-style: italic; }
+
+    /* Blog post styles */
+    .post-header { margin-bottom: 32px; }
+    .post-header h1 { font-size: 1.8rem; }
+    .post-header .post-meta { color: var(--text-muted); font-size: 0.9rem; margin-top: 4px; }
+
+    .post-content p { margin-bottom: 16px; }
+    .post-content h2 { margin-top: 32px; margin-bottom: 12px; font-size: 1.2rem; }
+    .post-content ul, .post-content ol { margin-bottom: 16px; padding-left: 24px; }
+    .post-content li { margin-bottom: 6px; }
+    .post-content code {
+      background: var(--bg-elevated);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 0.88em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+      max-width: 800px;
+      margin: 40px auto 0;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/" class="site-name">BethZ</a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="https://bethz.github.io/babu-landing/">BABU</a>
+    </div>
+  </nav>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    &copy; {{ site.time | date: "%Y" }} BethZ
+  </footer>
+</body>
+</html>

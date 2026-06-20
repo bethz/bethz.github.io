@@ -1,1 +1,36 @@
-This is a test.
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <h1>Hi, I'm BethZ.</h1>
+  <p class="tagline">Technology strategist. Builder. Communication coach.</p>
+</section>
+
+<section class="projects">
+  <h2>Projects</h2>
+  <div class="card-grid">
+    <a href="https://bethz.github.io/babu-landing/" class="card">
+      <h3>BABU</h3>
+      <p>Be A Better yoU! An AI communication coaching skill that analyzes your meeting transcripts and helps you level up your executive presence.</p>
+    </a>
+  </div>
+</section>
+
+<section class="blog-preview">
+  <h2>Recent Posts</h2>
+  {% if site.posts.size > 0 %}
+    <ul class="post-list">
+      {% for post in site.posts limit:5 %}
+        <li>
+          <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    <a href="/blog/" class="see-all">See all posts &rarr;</a>
+  {% else %}
+    <p class="muted">Blog posts coming soon.</p>
+  {% endif %}
+</section>
