@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#2E4057"/>
+  
+  <!-- Speedometer with no compass -->
+  <g transform="translate(950, 280)">
+    <!-- Speedometer dial -->
+    <circle cx="0" cy="20" r="70" fill="none" stroke="#F0C75E" stroke-width="3"/>
+    <!-- Speedometer arc -->
+    <path d="M -60,65 A 70,70 0 0,1 60,65" fill="none" stroke="#F0C75E" stroke-width="2" opacity="0.6"/>
+    <!-- Needle pointing right (no direction) -->
+    <line x1="0" y1="20" x2="60" y2="20" stroke="#F0C75E" stroke-width="4" stroke-linecap="round"/>
+    <!-- Center -->
+    <circle cx="0" cy="20" r="6" fill="#F0C75E"/>
+    
+    <!-- Red X where compass should be -->
+    <line x1="-50" y1="-40" x2="-30" y2="-20" stroke="#7AB3E0" stroke-width="3"/>
+    <line x1="-30" y1="-40" x2="-50" y2="-20" stroke="#7AB3E0" stroke-width="3"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="100" y="240" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    AI Speed Is
+  </text>
+  <text x="100" y="320" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Not a
+  </text>
+  <text x="100" y="400" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#F0C75E" letter-spacing="2">
+    Strategy
+  </text>
+  
+  <!-- BethZ attribution -->
+  <text x="1140" y="610" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F0C75E" text-anchor="end">BethZ</text>
+</svg>

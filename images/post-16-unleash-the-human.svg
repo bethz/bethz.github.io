@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#2E4057"/>
+  
+  <!-- Person with radiating energy -->
+  <g transform="translate(950, 280)">
+    <!-- Energy radiating circles -->
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#F0C75E" stroke-width="1.5" opacity="0.3"/>
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#F0C75E" stroke-width="1.5" opacity="0.4"/>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#F0C75E" stroke-width="1.5" opacity="0.5"/>
+    
+    <!-- Energy rays -->
+    <line x1="0" y1="-55" x2="0" y2="-75" stroke="#F0C75E" stroke-width="2.5"/>
+    <line x1="39" y1="-39" x2="53" y2="-53" stroke="#F0C75E" stroke-width="2.5"/>
+    <line x1="55" y1="0" x2="75" y2="0" stroke="#F0C75E" stroke-width="2.5"/>
+    <line x1="39" y1="39" x2="53" y2="53" stroke="#F0C75E" stroke-width="2.5"/>
+    <line x1="0" y1="55" x2="0" y2="75" stroke="#F0C75E" stroke-width="2.5"/>
+    <line x1="-39" y1="39" x2="-53" y2="53" stroke="#F0C75E" stroke-width="2.5"/>
+    <line x1="-55" y1="0" x2="-75" y2="0" stroke="#F0C75E" stroke-width="2.5"/>
+    <line x1="-39" y1="-39" x2="-53" y2="-53" stroke="#F0C75E" stroke-width="2.5"/>
+    
+    <!-- Person silhouette -->
+    <circle cx="0" cy="-15" r="12" fill="#7AB3E0"/>
+    <rect x="-12" y="-2" width="24" height="30" fill="#7AB3E0"/>
+    <line x1="-15" y1="8" x2="-25" y2="25" stroke="#7AB3E0" stroke-width="4"/>
+    <line x1="15" y1="8" x2="25" y2="25" stroke="#7AB3E0" stroke-width="4"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="100" y="280" font-family="Segoe UI, sans-serif" font-size="96" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Unleash
+  </text>
+  <text x="100" y="380" font-family="Segoe UI, sans-serif" font-size="96" font-weight="bold" fill="#F0C75E" letter-spacing="2">
+    the Human
+  </text>
+  
+  <!-- BethZ attribution -->
+  <text x="1140" y="610" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F0C75E" text-anchor="end">BethZ</text>
+</svg>

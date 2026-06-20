@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#2E4057"/>
+  
+  <!-- Receipt/Invoice visual -->
+  <g transform="translate(950, 280)">
+    <!-- Paper -->
+    <rect x="-60" y="-90" width="120" height="180" fill="white" rx="4"/>
+    <!-- Receipt lines (items) -->
+    <line x1="-50" y1="-75" x2="50" y2="-75" stroke="#2E4057" stroke-width="2"/>
+    <line x1="-50" y1="-55" x2="50" y2="-55" stroke="#2E4057" stroke-width="1.5" opacity="0.7"/>
+    <line x1="-50" y1="-35" x2="50" y2="-35" stroke="#2E4057" stroke-width="1.5" opacity="0.7"/>
+    <!-- Dollar signs on right -->
+    <text x="45" y="-48" font-family="Segoe UI" font-size="24" font-weight="bold" fill="#F0C75E">$</text>
+    <text x="45" y="-28" font-family="Segoe UI" font-size="24" font-weight="bold" fill="#F0C75E">$</text>
+    <!-- Total line -->
+    <line x1="-50" y1="10" x2="50" y2="10" stroke="#2E4057" stroke-width="2.5"/>
+    <text x="0" y="35" font-family="Segoe UI" font-size="16" font-weight="bold" fill="#F0C75E" text-anchor="middle">TOTAL $$$</text>
+    <!-- Tear off line -->
+    <line x1="-60" y1="70" x2="60" y2="70" stroke="#7AB3E0" stroke-width="1.5" stroke-dasharray="4,4"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="100" y="240" font-family="Segoe UI, sans-serif" font-size="84" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    The AI
+  </text>
+  <text x="100" y="340" font-family="Segoe UI, sans-serif" font-size="84" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Alignment Tax
+  </text>
+  
+  <!-- Accent line -->
+  <line x1="100" y1="360" x2="500" y2="360" stroke="#F0C75E" stroke-width="4"/>
+  
+  <!-- BethZ attribution -->
+  <text x="1140" y="610" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F0C75E" text-anchor="end">BethZ</text>
+</svg>

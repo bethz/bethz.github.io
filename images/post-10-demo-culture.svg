@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#2E4057"/>
+  
+  <!-- Stage/spotlight with empty back -->
+  <g transform="translate(950, 280)">
+    <!-- Stage -->
+    <ellipse cx="0" cy="60" rx="90" ry="30" fill="#F0C75E" opacity="0.4"/>
+    <polygon points="0,-60 -80,-20 -80,80 0,100 80,80 80,-20" fill="none" stroke="#F0C75E" stroke-width="2"/>
+    
+    <!-- Spotlight beams (illuminating nothing) -->
+    <polygon points="-70,-100 -50,-60 50,-60 70,-100" fill="#F0C75E" opacity="0.2"/>
+    <line x1="-70" y1="-100" x2="-50" y2="-60" stroke="#F0C75E" stroke-width="2" opacity="0.6"/>
+    <line x1="70" y1="-100" x2="50" y2="-60" stroke="#F0C75E" stroke-width="2" opacity="0.6"/>
+    
+    <!-- Empty stage (nothing to show) -->
+    <text x="0" y="0" font-family="Segoe UI" font-size="20" font-weight="bold" fill="#7AB3E0" text-anchor="middle" opacity="0.5">∅</text>
+  </g>
+  
+  <!-- Main title -->
+  <text x="100" y="240" font-family="Segoe UI, sans-serif" font-size="84" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Demo Culture
+  </text>
+  <text x="100" y="340" font-family="Segoe UI, sans-serif" font-size="84" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Is Killing AI
+  </text>
+  
+  <!-- Accent line -->
+  <line x1="100" y1="360" x2="550" y2="360" stroke="#F0C75E" stroke-width="4"/>
+  
+  <!-- BethZ attribution -->
+  <text x="1140" y="610" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F0C75E" text-anchor="end">BethZ</text>
+</svg>

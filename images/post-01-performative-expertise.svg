@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#2E4057"/>
+  
+  <!-- Diamond shape (polished) -->
+  <g transform="translate(950, 280)">
+    <!-- Outer diamond (polished) -->
+    <path d="M 0,-120 L 85,-40 L 0,80 L -85,-40 Z" fill="none" stroke="#F0C75E" stroke-width="3"/>
+    <!-- Inner crack/hollow -->
+    <line x1="0" y1="-120" x2="0" y2="80" stroke="#2E4057" stroke-width="2" opacity="0.8"/>
+    <circle cx="0" cy="-20" r="25" fill="none" stroke="#F0C75E" stroke-width="2" opacity="0.6"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="200" y="240" font-family="Segoe UI, sans-serif" font-size="84" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Performative
+  </text>
+  <text x="200" y="340" font-family="Segoe UI, sans-serif" font-size="84" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Expertise
+  </text>
+  
+  <!-- Accent line -->
+  <line x1="200" y1="360" x2="550" y2="360" stroke="#F0C75E" stroke-width="4"/>
+  
+  <!-- BethZ attribution -->
+  <text x="1140" y="610" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F0C75E" text-anchor="end">BethZ</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#2E4057"/>
+  
+  <!-- Scales of justice with circuit -->
+  <g transform="translate(950, 280)">
+    <!-- Balance beam -->
+    <line x1="-80" y1="0" x2="80" y2="0" stroke="#F0C75E" stroke-width="4" stroke-linecap="round"/>
+    <!-- Center pivot -->
+    <polygon points="0,0 -8,15 8,15" fill="#F0C75E"/>
+    
+    <!-- Left scale pan (lower - heavier) -->
+    <rect x="-70" y="15" width="40" height="20" fill="#F0C75E" rx="2"/>
+    <!-- Left pan string -->
+    <line x1="-50" y1="15" x2="-45" y2="0" stroke="#F0C75E" stroke-width="2"/>
+    
+    <!-- Right scale pan (higher - lighter) -->
+    <rect x="30" y="-35" width="40" height="20" fill="#7AB3E0" rx="2"/>
+    <!-- Right pan string -->
+    <line x1="50" y1="-35" x2="45" y2="0" stroke="#7AB3E0" stroke-width="2"/>
+    
+    <!-- Circuit pattern on right side -->
+    <circle cx="70" cy="-25" r="4" fill="#7AB3E0"/>
+    <line x1="70" y1="-29" x2="70" y2="-15" stroke="#7AB3E0" stroke-width="1.5"/>
+    <line x1="65" y1="-20" x2="75" y2="-20" stroke="#7AB3E0" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="100" y="240" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    AI Doesn't
+  </text>
+  <text x="100" y="320" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Replace
+  </text>
+  <text x="100" y="400" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#F0C75E" letter-spacing="2">
+    Judgment
+  </text>
+  
+  <!-- BethZ attribution -->
+  <text x="1140" y="610" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F0C75E" text-anchor="end">BethZ</text>
+</svg>

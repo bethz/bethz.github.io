@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#2E4057"/>
+  
+  <!-- 80/20 pie chart -->
+  <g transform="translate(950, 280)">
+    <!-- Background circle -->
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#7AB3E0" stroke-width="2" opacity="0.3"/>
+    
+    <!-- 80% slice (gold) -->
+    <path d="M 0,0 L 0,-80 A 80,80 0 1,1 -65.54,47.1 Z" fill="#F0C75E" opacity="0.8"/>
+    
+    <!-- 20% slice (light blue) -->
+    <path d="M 0,0 L -65.54,47.1 A 80,80 0 0,1 0,-80 Z" fill="#7AB3E0" opacity="0.8"/>
+    
+    <!-- Labels -->
+    <text x="-30" y="0" font-family="Segoe UI" font-size="20" font-weight="bold" fill="#2E4057" text-anchor="middle">80%</text>
+    <text x="20" y="-50" font-family="Segoe UI" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">20%</text>
+  </g>
+  
+  <!-- Main title -->
+  <text x="100" y="220" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    The 80/20 of
+  </text>
+  <text x="100" y="300" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Human-in-the-
+  </text>
+  <text x="100" y="380" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#F0C75E" letter-spacing="2">
+    Loop AI
+  </text>
+  
+  <!-- BethZ attribution -->
+  <text x="1140" y="610" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F0C75E" text-anchor="end">BethZ</text>
+</svg>

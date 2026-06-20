@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#2E4057"/>
+  
+  <!-- Target with arrow hitting center -->
+  <g transform="translate(950, 280)">
+    <!-- Target rings -->
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#7AB3E0" stroke-width="2"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#7AB3E0" stroke-width="2"/>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#F0C75E" stroke-width="2"/>
+    <circle cx="0" cy="0" r="20" fill="#F0C75E"/>
+    
+    <!-- Arrow -->
+    <line x1="-100" y1="0" x2="0" y2="0" stroke="#F0C75E" stroke-width="4"/>
+    <polygon points="5,-8 18,0 5,8" fill="#F0C75E"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="100" y="200" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    One AI Agent.
+  </text>
+  <text x="100" y="280" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    One Decision.
+  </text>
+  <text x="100" y="360" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#F0C75E" letter-spacing="2">
+    One Win.
+  </text>
+  
+  <!-- BethZ attribution -->
+  <text x="1140" y="610" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F0C75E" text-anchor="end">BethZ</text>
+</svg>

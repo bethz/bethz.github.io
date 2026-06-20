@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#2E4057"/>
+  
+  <!-- Two connecting speech bubbles -->
+  <g transform="translate(950, 280)">
+    <!-- Left speech bubble -->
+    <ellipse cx="-50" cy="-30" rx="45" ry="40" fill="none" stroke="#F0C75E" stroke-width="3"/>
+    <!-- Pointer -->
+    <polygon points="-50,15 -60,30 -40,25" fill="#F0C75E"/>
+    
+    <!-- Right speech bubble -->
+    <ellipse cx="50" cy="30" rx="45" ry="40" fill="none" stroke="#7AB3E0" stroke-width="3"/>
+    <!-- Pointer -->
+    <polygon points="50,-15 60,-30 40,-25" fill="#7AB3E0"/>
+    
+    <!-- Connection line -->
+    <line x1="-15" y1="-10" x2="15" y2="10" stroke="#F0C75E" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="5" fill="#F0C75E"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="100" y="200" font-family="Segoe UI, sans-serif" font-size="64" font-weight="bold" fill="#FFFFFF" letter-spacing="1">
+    From AI Thought
+  </text>
+  <text x="100" y="280" font-family="Segoe UI, sans-serif" font-size="64" font-weight="bold" fill="#FFFFFF" letter-spacing="1">
+    Leadership to
+  </text>
+  <text x="100" y="360" font-family="Segoe UI, sans-serif" font-size="64" font-weight="bold" fill="#F0C75E" letter-spacing="1">
+    Thought Partnership
+  </text>
+  
+  <!-- BethZ attribution -->
+  <text x="1140" y="610" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F0C75E" text-anchor="end">BethZ</text>
+</svg>

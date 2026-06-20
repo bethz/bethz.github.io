@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#2E4057"/>
+  
+  <!-- Stack of commodity boxes with one golden data gem -->
+  <g transform="translate(950, 300)">
+    <!-- Stack of boxes (commoditized) -->
+    <rect x="-60" y="-20" width="50" height="30" fill="none" stroke="#7AB3E0" stroke-width="2" opacity="0.6"/>
+    <line x1="-60" y1="-20" x2="-55" y2="-25" stroke="#7AB3E0" stroke-width="1" opacity="0.6"/>
+    <line x1="-10" y1="-20" x2="-5" y2="-25" stroke="#7AB3E0" stroke-width="1" opacity="0.6"/>
+    
+    <rect x="-55" y="10" width="50" height="30" fill="none" stroke="#7AB3E0" stroke-width="2" opacity="0.5"/>
+    <line x1="-55" y1="10" x2="-50" y2="5" stroke="#7AB3E0" stroke-width="1" opacity="0.5"/>
+    
+    <rect x="-50" y="40" width="50" height="30" fill="none" stroke="#7AB3E0" stroke-width="2" opacity="0.4"/>
+    
+    <!-- Golden data gem (on top) -->
+    <g transform="translate(50, -35)">
+      <!-- Diamond shape -->
+      <polygon points="0,-25 15,-10 0,15 -15,-10" fill="#F0C75E"/>
+      <!-- Facet lines -->
+      <line x1="0" y1="-25" x2="0" y2="15" stroke="#2E4057" stroke-width="1" opacity="0.5"/>
+      <line x1="-15" y1="-10" x2="15" y2="-10" stroke="#2E4057" stroke-width="1" opacity="0.5"/>
+      <!-- Shine effect -->
+      <ellipse cx="-5" cy="-5" rx="5" ry="5" fill="#FFFFFF" opacity="0.6"/>
+    </g>
+  </g>
+  
+  <!-- Main title -->
+  <text x="100" y="240" font-family="Segoe UI, sans-serif" font-size="84" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    AI Models
+  </text>
+  <text x="100" y="340" font-family="Segoe UI, sans-serif" font-size="84" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Are Commoditized
+  </text>
+  
+  <!-- Accent line -->
+  <line x1="100" y1="360" x2="600" y2="360" stroke="#F0C75E" stroke-width="4"/>
+  
+  <!-- BethZ attribution -->
+  <text x="1140" y="610" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F0C75E" text-anchor="end">BethZ</text>
+</svg>

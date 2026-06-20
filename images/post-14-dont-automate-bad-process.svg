@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#2E4057"/>
+  
+  <!-- Broken gear being amplified -->
+  <g transform="translate(950, 280)">
+    <!-- Original broken gear (left) -->
+    <g transform="translate(-50, 0)">
+      <circle cx="0" cy="0" r="40" fill="none" stroke="#7AB3E0" stroke-width="2"/>
+      <!-- Gear teeth -->
+      <rect x="-8" y="-45" width="16" height="10" fill="#7AB3E0"/>
+      <rect x="28" y="-28" width="10" height="16" fill="#7AB3E0"/>
+      <rect x="28" y="12" width="10" height="16" fill="#7AB3E0"/>
+      <!-- Broken tooth -->
+      <rect x="-35" y="-10" width="10" height="16" fill="none" stroke="#7AB3E0" stroke-width="2" stroke-dasharray="3,3"/>
+      <!-- Center -->
+      <circle cx="0" cy="0" r="5" fill="#7AB3E0"/>
+    </g>
+    
+    <!-- Amplified/magnified broken gear (right, bigger, more broken) -->
+    <g transform="translate(50, 0)">
+      <circle cx="0" cy="0" r="60" fill="none" stroke="#F0C75E" stroke-width="3"/>
+      <!-- More broken teeth visible -->
+      <rect x="-12" y="-68" width="24" height="15" fill="#F0C75E" opacity="0.5"/>
+      <rect x="42" y="-42" width="15" height="24" fill="#F0C75E" opacity="0.5"/>
+      <rect x="42" y="18" width="15" height="24" fill="#F0C75E" opacity="0.5"/>
+      <rect x="-52" y="-15" width="15" height="24" fill="none" stroke="#F0C75E" stroke-width="3" stroke-dasharray="4,4"/>
+      <!-- Center -->
+      <circle cx="0" cy="0" r="8" fill="#F0C75E"/>
+      <!-- Magnifying glass lines -->
+      <line x1="65" y1="-65" x2="80" y2="-80" stroke="#F0C75E" stroke-width="2"/>
+    </g>
+  </g>
+  
+  <!-- Main title -->
+  <text x="100" y="240" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Don't Let AI
+  </text>
+  <text x="100" y="320" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Automate a Bad
+  </text>
+  <text x="100" y="400" font-family="Segoe UI, sans-serif" font-size="72" font-weight="bold" fill="#F0C75E" letter-spacing="2">
+    Process
+  </text>
+  
+  <!-- BethZ attribution -->
+  <text x="1140" y="610" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F0C75E" text-anchor="end">BethZ</text>
+</svg>

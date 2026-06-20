@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628" width="1200" height="628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#2E4057"/>
+  
+  <!-- Rocket visual (sideways/off-target) -->
+  <g transform="translate(950, 280)">
+    <!-- Rocket body -->
+    <rect x="-80" y="-20" width="120" height="40" rx="5" fill="#F0C75E"/>
+    <!-- Rocket nose -->
+    <polygon points="-85,-30 -100,-10 -85,10" fill="#F0C75E"/>
+    <!-- Rocket fins -->
+    <polygon points="30,-20 50,-40 40,-20" fill="#7AB3E0"/>
+    <polygon points="30,20 50,40 40,20" fill="#7AB3E0"/>
+    <!-- Thrust flames (sideways) -->
+    <polygon points="45,-15 70,-25 65,-8" fill="#F0C75E" opacity="0.8"/>
+    <polygon points="45,15 70,25 65,8" fill="#F0C75E" opacity="0.8"/>
+    <!-- Window -->
+    <circle cx="-30" cy="0" r="8" fill="#2E4057"/>
+    <!-- Trajectory line (wrong direction) -->
+    <line x1="80" y1="-60" x2="100" y2="60" stroke="#7AB3E0" stroke-width="2" stroke-dasharray="5,5" opacity="0.6"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="100" y="240" font-family="Segoe UI, sans-serif" font-size="84" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Premature AI
+  </text>
+  <text x="100" y="340" font-family="Segoe UI, sans-serif" font-size="84" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    Execution
+  </text>
+  
+  <!-- Accent line -->
+  <line x1="100" y1="360" x2="450" y2="360" stroke="#F0C75E" stroke-width="4"/>
+  
+  <!-- BethZ attribution -->
+  <text x="1140" y="610" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F0C75E" text-anchor="end">BethZ</text>
+</svg>
