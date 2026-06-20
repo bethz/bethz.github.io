@@ -4,6 +4,7 @@ title: "AI Speed Is Not a Strategy"
 date: 2026-07-03
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 AI makes everything faster. That's the pitch. That's the promise. And it's true.

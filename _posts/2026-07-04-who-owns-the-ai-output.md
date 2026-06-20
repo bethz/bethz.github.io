@@ -4,6 +4,7 @@ title: "Who Owns the AI Output?"
 date: 2026-07-04
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 Something goes wrong. The AI agent made a recommendation. The team followed it. The outcome was bad.

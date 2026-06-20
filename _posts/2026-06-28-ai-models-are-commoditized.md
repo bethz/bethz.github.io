@@ -4,6 +4,7 @@ title: "AI Models Are Commoditized. Your Data Isn't."
 date: 2026-06-28
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 Everyone has access to the same foundation models. GPT, Claude, Gemini, Llama. The model isn't your advantage. It never was.

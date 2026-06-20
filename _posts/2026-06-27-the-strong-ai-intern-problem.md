@@ -4,6 +4,7 @@ title: "The Strong AI Intern Problem"
 date: 2026-06-27
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 Your AI is a strong intern. Confident. Fast. Produces clean work. Looks like they know what they're doing.

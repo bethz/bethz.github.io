@@ -4,6 +4,7 @@ title: "The 80/20 of Human-in-the-Loop AI"
 date: 2026-07-02
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 Not every decision needs a human. Not every decision should be automated. The art is knowing where to draw the line.

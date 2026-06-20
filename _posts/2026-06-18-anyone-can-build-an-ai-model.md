@@ -4,6 +4,7 @@ title: "Anyone Can Build an AI Model"
 date: 2026-06-18
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 Anyone can build an AI model. Seriously. The tools are there. The tutorials are everywhere. A weekend and some curiosity gets you a working prototype.

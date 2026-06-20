@@ -4,6 +4,7 @@ title: "The Three-Phase AI Team"
 date: 2026-06-24
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 Most teams operate in one mode: execute. Somebody says "go," and everyone starts building. When alignment breaks, they patch it mid-sprint. When scope shifts, they absorb it and ship anyway.

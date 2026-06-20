@@ -4,6 +4,7 @@ title: "AI Doesn't Replace Judgment"
 date: 2026-06-23
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 AI can write code, draft emails, summarize meetings, and generate architectures. What it cannot do is decide whether any of that should exist.

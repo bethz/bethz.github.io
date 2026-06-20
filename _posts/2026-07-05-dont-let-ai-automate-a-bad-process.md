@@ -4,6 +4,7 @@ title: "Don't Let AI Automate a Bad Process"
 date: 2026-07-05
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 The fastest way to scale a problem is to automate it.

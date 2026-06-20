@@ -4,6 +4,7 @@ title: "Stop Building. Start Thinking. (Even When AI Makes It Easy.)"
 date: 2026-06-19
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 We reward speed. Ship it. Get it done. Move fast.

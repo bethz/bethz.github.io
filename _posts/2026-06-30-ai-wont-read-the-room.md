@@ -4,6 +4,7 @@ title: "AI Won't Read the Room for You"
 date: 2026-06-30
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 AI can analyze sentiment. It can summarize meetings. It can even predict outcomes based on patterns.

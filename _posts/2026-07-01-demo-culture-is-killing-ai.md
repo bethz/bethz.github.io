@@ -4,6 +4,7 @@ title: "Demo Culture Is Killing AI Adoption"
 date: 2026-07-01
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 I've sat through dozens of AI demos this year. Slick. Impressive. Standing ovations from leadership.

@@ -4,6 +4,7 @@ title: "What Happens to AI Models After Fine-Tuning? Pets vs. Cattle."
 date: 2026-07-07
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 Nobody talks about what happens after you fine-tune an AI model for a customer.

@@ -4,6 +4,7 @@ title: "The AI Alignment Tax"
 date: 2026-06-21
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 Every team that skips alignment pays for it later. With AI in the mix, the invoice arrives faster and costs more.

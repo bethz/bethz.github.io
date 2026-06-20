@@ -4,6 +4,7 @@ title: "From AI Thought Leadership to AI Thought Partnership"
 date: 2026-07-06
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 Thought leadership used to mean: I have insight, I broadcast it, you consume it.

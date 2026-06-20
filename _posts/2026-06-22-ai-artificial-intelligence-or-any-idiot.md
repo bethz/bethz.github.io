@@ -4,6 +4,7 @@ title: "AI: Artificial Intelligence, or Any Idiot?"
 date: 2026-06-22
 type: linkedin
 linkedin_url: ""
+published: false
 ---
 
 AI stands for Artificial Intelligence. But lately it also stands for Any Idiot.
