@@ -11,6 +11,7 @@ title: Blog
       <li>
         <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
         <a href="{{ post.url }}">{{ post.title }}</a>
+        {% if post.type == "linkedin" %}<span class="badge badge-linkedin">LinkedIn</span>{% else %}<span class="badge badge-blog">Blog</span>{% endif %}
       </li>
     {% endfor %}
   </ul>
