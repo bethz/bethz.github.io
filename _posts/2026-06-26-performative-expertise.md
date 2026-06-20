@@ -8,9 +8,9 @@ linkedin_url: ""
 
 HBR recently asked: "Has AI Ended Thought Leadership?" (John Winsor, March 2026). The answer isn't yes or no. It's worse than that.
 
-AI hasn't killed thought leadership. It's flooded the market with something that looks identical but produces zero outcomes. I call it performative expertise.
+AI hasn't killed thought leadership. It's flooded the market with something that looks identical but produces zero outcomes. It's called performative expertise.
 
-Performative expertise is:
+People are spending an amazing amount of AI tokens creating beautiful output that's useless. Performative expertise is:
 - A 20-page strategy doc generated in 10 minutes that nobody acts on
 - A polished, authoritative-sounding recommendation with no data behind it
 - An agent output that sounds strategic but solves a problem that doesn't exist
