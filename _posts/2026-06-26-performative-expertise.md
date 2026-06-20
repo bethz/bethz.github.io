@@ -17,6 +17,8 @@ People are spending an amazing amount of AI tokens creating beautiful output tha
 
 It looks credible. It sounds confident. Executives nod along. And nothing changes.
 
+Worse: the loudest person in the room pushes the AI-generated answer, and they tend to get their way. Not because it's right, but because it looks right and nobody has time to challenge a 15-page doc that appeared in 30 seconds.
+
 The danger isn't that AI produces bad content. It's that AI produces content so polished that we stop evaluating whether it's useful. We mistake presentation quality for insight quality.
 
 I've seen this in enterprise partnerships: teams presenting AI-generated analysis as if generation were the hard part. It's not. The hard part is knowing whether the output maps to reality.
