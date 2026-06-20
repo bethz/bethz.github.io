@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Premature Execution: When Solutions Arrive Before the Problem Does"
+title: "Premature AI Execution: When Solutions Arrive Before the Problem Does"
 date: 2026-06-20
 type: linkedin
 linkedin_url: ""

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stop Building. Start Thinking."
+title: "Stop Building. Start Thinking. (Even When AI Makes It Easy.)"
 date: 2026-06-19
 type: linkedin
 linkedin_url: ""
