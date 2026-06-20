@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Three-Phase Team"
+title: "The Three-Phase AI Team"
 date: 2026-06-24
 type: linkedin
 linkedin_url: ""
