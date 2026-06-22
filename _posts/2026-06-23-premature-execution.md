@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Premature AI Execution: When Solutions Arrive Before the Problem Does"
-date: 2026-06-20
+date: 2026-06-23
 type: linkedin
 linkedin_url: ""
-published: false
+published: true
 ---
 
 You're five minutes into describing a new initiative. Use cases aren't defined. Personas are fuzzy. You haven't finished the sentence.
