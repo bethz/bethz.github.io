@@ -4,6 +4,7 @@ title: "Premature AI Execution: When Solutions Arrive Before the Problem Does"
 date: 2026-06-23
 type: linkedin
 linkedin_url: ""
+image: /images/post-03-premature-ai-execution.png
 published: true
 ---
 

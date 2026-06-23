@@ -147,7 +147,26 @@
       border-bottom: 1px solid var(--border);
       display: flex;
       gap: 16px;
-      align-items: baseline;
+      align-items: center;
+    }
+
+    .post-list-content {
+      flex: 1;
+    }
+
+    .post-thumb-link {
+      display: block;
+      flex: 0 0 96px;
+      line-height: 0;
+    }
+
+    .post-thumb {
+      width: 96px;
+      aspect-ratio: 1200 / 628;
+      object-fit: cover;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
     }
 
     .post-date {
@@ -198,6 +217,13 @@
     .post-header { margin-bottom: 32px; }
     .post-header h1 { font-size: 1.8rem; }
     .post-header .post-meta { color: var(--text-muted); font-size: 0.9rem; margin-top: 4px; }
+    .post-hero-image {
+      width: 100%;
+      margin: 0 0 28px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--surface);
+    }
 
     .post-content p { margin-bottom: 16px; }
     .post-content h2 { margin-top: 32px; margin-bottom: 12px; font-size: 1.2rem; }
