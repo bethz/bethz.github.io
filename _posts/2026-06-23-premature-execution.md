@@ -3,8 +3,8 @@ layout: post
 title: "Premature AI Execution: When Solutions Arrive Before the Problem Does"
 date: 2026-06-23
 type: linkedin
-linkedin_url: ""
-image: /images/post-03-premature-ai-execution.png
+linkedin_url: "https://www.linkedin.com/posts/bethzeranski_ai-leadership-productstrategy-share-7475183674997624833-IFNh/"
+image: /images/post-01-premature-ai-execution.png
 published: true
 ---
 
