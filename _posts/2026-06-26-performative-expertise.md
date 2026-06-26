@@ -3,8 +3,8 @@ layout: post
 title: "Performative Expertise: When AI Looks Smart But Says Nothing"
 date: 2026-06-26
 type: linkedin
-linkedin_url: ""
-published: false
+linkedin_url: "https://www.linkedin.com/posts/bethzeranski_ai-thoughtleadership-enterpriseai-share-7476294883264065538-1gFX/"
+published: true
 ---
 
 HBR recently asked: "Has AI Ended Thought Leadership?" (John Winsor, March 2026). The answer isn't yes or no. It's worse than that.
