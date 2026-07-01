@@ -9,9 +9,16 @@ title: Blog
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        {% if post.type == "linkedin" %}<span class="badge badge-linkedin">LinkedIn</span>{% else %}<span class="badge badge-blog">Blog</span>{% endif %}
+        {% if post.image %}
+          <a class="post-thumb-link" href="{{ post.url }}" aria-label="{{ post.title }}">
+            <img class="post-thumb" src="{{ post.image }}" alt="">
+          </a>
+        {% endif %}
+        <div class="post-list-content">
+          <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          {% if post.type == "linkedin" %}<span class="badge badge-linkedin">LinkedIn</span>{% else %}<span class="badge badge-blog">Blog</span>{% endif %}
+        </div>
       </li>
     {% endfor %}
   </ul>
