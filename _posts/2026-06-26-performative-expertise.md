@@ -4,6 +4,7 @@ title: "Performative Expertise: When AI Looks Smart But Says Nothing"
 date: 2026-06-26
 type: linkedin
 linkedin_url: "https://www.linkedin.com/posts/bethzeranski_ai-thoughtleadership-enterpriseai-share-7476294883264065538-1gFX/"
+image: /images/post-02-performative-expertise.png
 published: true
 ---
 
