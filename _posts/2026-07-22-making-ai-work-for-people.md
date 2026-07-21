@@ -6,6 +6,7 @@ type: linkedin
 linkedin_url:
 published: true
 image: /images/post-making-ai-work-for-people.png
+thumbnail: /images/post-making-ai-work-for-people-thumb.png
 ---
 
 Making AI Work for People
